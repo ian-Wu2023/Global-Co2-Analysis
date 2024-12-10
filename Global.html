@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global CO2 Emissions Analysis</title>
+    <title>Global CO2 Analysis</title>
+    <script type="text/javascript">
+        // Placeholder for Java Data Processing
+    </script>
 </head>
 <body>
-    <h1>Global CO2 Emissions Analysis</h1>
-    <p>This project analyzes global CO2 emissions using data from <a href="https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions">Our World in Data</a>.</p>
-    
+    <h1>Global CO2 Analysis</h1>
+    <p>Interactive visualizations of global CO2 emissions data.</p>
+
     <h2>1. CO2 Emissions Over Time</h2>
-    <iframe src="line_chart.html" width="100%" height="500px"></iframe>
-    
+    <iframe src="line_chart.html" width="100%" height="600"></iframe>
+
     <h2>2. Top 10 CO2 Emitters in 2022</h2>
-    <iframe src="bar_chart.html" width="100%" height="500px"></iframe>
-    
+    <iframe src="bar_chart.html" width="100%" height="600"></iframe>
+
     <h2>3. CO2 Emissions Per Capita (2022)</h2>
-    <iframe src="map_chart.html" width="100%" height="500px"></iframe>
+    <iframe src="map_chart.html" width="100%" height="600"></iframe>
+
+    <script type="text/javascript">
+        // Java Code Simulation
+        console.log("Simulating Java Data Processing and Visualization...");
+
+        // Simulated Java method for loading and processing data
+        function loadJavaCode() {
+            console.log("Loading data from CO2 dataset...");
+            // Example: Simulating Java processing in JavaScript
+            const data = "Country,Year,CO2\nUnited States,2022,5000\nChina,2022,10000\nIndia,2022,3000";
+            const rows = data.split("\n");
+            console.log("Headers:", rows[0]);
+            rows.slice(1).forEach(row => {
+                const columns = row.split(",");
+                console.log(`Country: ${columns[0]}, Year: ${columns[1]}, CO2: ${columns[2]}`);
+            });
+        }
+
+        loadJavaCode();
+    </script>
 </body>
 </html>
