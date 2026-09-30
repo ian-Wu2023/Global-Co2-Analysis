@@ -1,0 +1,40 @@
+{
+  "source": "https://raw.githubusercontent.com/owid/co2-data/382ee6c662b0ece26e111f263b44c029afad7787/owid-co2-data.csv",
+  "source_sha256": "7f78e2b218ce4bb8c538bbec04fdc9a7982e8d40bff972e650df603899edd5f6",
+  "analysis_year": 2022,
+  "start_year": 1990,
+  "country_rule": "ISO 3166-1 alpha-3 membership; includes territories, excludes aggregates and unassigned codes",
+  "requested_line_countries": [
+    "United States",
+    "China",
+    "India",
+    "Germany",
+    "Brazil"
+  ],
+  "line_countries_with_data": [
+    "Brazil",
+    "China",
+    "Germany",
+    "India",
+    "United States"
+  ],
+  "ranking_countries": [
+    "China",
+    "United States",
+    "India",
+    "Russia",
+    "Japan",
+    "Iran",
+    "Indonesia",
+    "Germany",
+    "Saudi Arabia",
+    "South Korea"
+  ],
+  "map_country_count": 213,
+  "versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "plotly": "6.3.0",
+    "pycountry": "24.6.1"
+  }
+}
